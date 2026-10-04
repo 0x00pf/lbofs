@@ -1,6 +1,6 @@
-# LBOFS: Lost Book of Forgotten Syscalls
+# LBOFS: Lost Book of Forbidden Syscalls
 
-The _Lost Book of Forgotten Syscalls_ is a compendium of basic low-level offensive and efensive techniques commonly used by malware, anti-malware and other protected SW. It's being published as blog post in my website and 0x00sec and when completed all the instalments will be composed in a single PDF.
+The _Lost Book of Forgotten Syscalls_ is a compendium of basic low-level offensive and offensive techniques commonly used by malware, anti-malware and other protected SW. It's being published as blog post in my website and 0x00sec and when completed all the installments will be composed in a single PDF.
 
 In this repo you will find the original MarkDown text as well as all the code for the different chapters.
 
