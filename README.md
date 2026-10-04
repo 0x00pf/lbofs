@@ -6,4 +6,4 @@ In this repo you will find the original MarkDown text as well as all the code fo
 
 ## Contents
 
-[01. Debugging and Anti-Debugging Fun (1/3)](ch01-ptrace-01.md)
+[01. Debugging and Anti-Debugging Fun (1/3)](ch10-ptrace-01.md)
