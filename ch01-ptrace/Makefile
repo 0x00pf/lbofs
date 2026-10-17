@@ -1,6 +1,7 @@
 BINARIES= ptrace1 ptrace2 ptrace3 ptrace4 ptrace5 ptrace6 ptrace7 ptrace8 \
 	  test10 test1 test2-1 test2 test3-1 test3 test4 test6 \
-	  test7 test8 test9 checksum sim_ptrace sim_ptrace1
+	  test7 test8 test9 checksum sim_ptrace sim_ptrace1 \
+	  key_protected picomites picomites_run
 
 all:$(BINARIES) libbypass_ptrace.so count integrity
 
