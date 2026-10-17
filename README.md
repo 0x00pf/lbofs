@@ -9,3 +9,4 @@ In this repo you will find the original MarkDown text as well as all the code fo
 01. Debugging and Anti-Debugging Fun 
 * [Part 1](ch10-ptrace-01.md)
 * [Part 2](ch10-ptrace-02.md)
+* [Part 3](ch10-ptrace-03.md)
