@@ -193,11 +193,11 @@ We can easily get the libC base address from the process memory map which, for o
 
 ```
 $ cat /proc/3539107/maps
-55a7e239e000-55a7e239f000 r--p 00000000 fd:01 49691047                   /opt/work/projects/syscalls/process_vm/dlopen1
-55a7e239f000-55a7e23a0000 r-xp 00001000 fd:01 49691047                   /opt/work/projects/syscalls/process_vm/dlopen1
-55a7e23a0000-55a7e23a1000 r--p 00002000 fd:01 49691047                   /opt/work/projects/syscalls/process_vm/dlopen1
-55a7e23a1000-55a7e23a2000 r--p 00002000 fd:01 49691047                   /opt/work/projects/syscalls/process_vm/dlopen1
-55a7e23a2000-55a7e23a3000 rw-p 00003000 fd:01 49691047                   /opt/work/projects/syscalls/process_vm/dlopen1
+55a7e239e000-55a7e239f000 r--p 00000000 fd:01 49691047                   /opt/code/process_vm/dlopen1
+55a7e239f000-55a7e23a0000 r-xp 00001000 fd:01 49691047                   /opt/code/process_vm/dlopen1
+55a7e23a0000-55a7e23a1000 r--p 00002000 fd:01 49691047                   /opt/code/process_vm/dlopen1
+55a7e23a1000-55a7e23a2000 r--p 00002000 fd:01 49691047                   /opt/code/process_vm/dlopen1
+55a7e23a2000-55a7e23a3000 rw-p 00003000 fd:01 49691047                   /opt/code/process_vm/dlopen1
 55a805a85000-55a805aa6000 rw-p 00000000 00:00 0                          [heap]
 7fa47b8f8000-7fa47b8fb000 rw-p 00000000 00:00 0
 7fa47b8fb000-7fa47b923000 r--p 00000000 fd:01 50081991                   /usr/lib/x86_64-linux-gnu/libc.so.6
@@ -206,9 +206,9 @@ $ cat /proc/3539107/maps
 7fa47badc000-7fa47bae0000 r--p 001e0000 fd:01 50081991                   /usr/lib/x86_64-linux-gnu/libc.so.6
 7fa47bae0000-7fa47bae2000 rw-p 001e4000 fd:01 50081991                   /usr/lib/x86_64-linux-gnu/libc.so.6
 7fa47bae2000-7fa47baef000 rw-p 00000000 00:00 0
-7fa47bb06000-7fa47bb07000 r--p 00000000 fd:01 49691051                   /opt/work/projects/syscalls/process_vm/libtest.so
-7fa47bb07000-7fa47bb08000 r-xp 00001000 fd:01 49691051                   /opt/work/projects/syscalls/process_vm/libtest.so
-7fa47bb08000-7fa47bb09000 r--p 00002000 fd:01 49691051                   /opt/work/projects/syscalls/process_vm/libtest.so
+7fa47bb06000-7fa47bb07000 r--p 00000000 fd:01 49691051                   /opt/code/process_vm/libtest.so
+7fa47bb07000-7fa47bb08000 r-xp 00001000 fd:01 49691051                   /opt/code/process_vm/libtest.so
+7fa47bb08000-7fa47bb09000 r--p 00002000 fd:01 49691051                   /opt/code/process_vm/libtest.so
 __--snip--__
 ```
 
